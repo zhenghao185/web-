@@ -1,0 +1,98 @@
+body {
+    height: 400px;
+    background-image: linear-gradient(#e66465, #9198e5);
+//background: #0396;
+    //background-image:url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1602065864023&di=18308770aac11e611ff3ed2ee39b4b05&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Fback_pic%2F04%2F70%2F68%2F42589981e169c7f.jpg');
+    background-repeat:repeat-x;
+    background-position:middle;
+    overflow: hidden;
+    transition:width 1s;
+    -webkit-transition:height 1s; /* Safari */
+}
+body:hover
+{
+    height: 800px;
+}
+#login{
+    width:300px;/**宽度**/
+    height:300px;/**高度**/
+    position:absolute;/**绝对定位**/
+    left:50%;/**左边50%**/
+    top:50%;/**顶部50%**/
+    margin-top:-100px;/**上移-50%**/
+    margin-left:-150px;/**左移-50%**/
+    /*background-color: #dddddd;*/
+    text-align: center;
+    color: #ffffff;
+    /*transform:rotate(45deg);*/
+    /*-ms-transform:rotate(45deg); !* Internet Explorer *!*/
+    /*-moz-transform:rotate(45deg); !* Firefox *!*/
+    /*-webkit-transform:rotate(45deg); !* Safari 和 Chrome *!*/
+    /*-o-transform:rotate(45deg); !* Opera *!*/
+    z-index: 999;
+}
+
+#login input{
+    height: 30px;
+    width: 100%;
+    margin: 15px auto;
+    color: green;
+    padding:5px;
+    border-radius: 20px;
+    border: 1px solid #dddddd;
+    text-align: center;
+    font-size: 18px;
+    background-color: transparent;
+    outline: none;
+}
+#login input[type='button']{
+    width: 40%;
+    height: 40px;
+    color: black;
+    font-weight: normal;
+    font-family: 幼圆;
+}
+
+#login input[type='submit']{
+    width: 40%;
+    height: 40px;
+    color: black;
+    font-weight: normal;
+    font-family: 幼圆;
+}
+#login input[type="text"]{
+    background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1602080649313&di=9474fa7ca5ba6b5b017f559047aaa6bb&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F31%2F49%2F5810b9762573d_610.jpg');
+    background-position: 10px 10px;
+    background-size:30px 30px;
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#login input[type="text"]:focus {
+    width: 100%;
+}
+#login input[type="password"]{
+    background-image: url('https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2856269505,2715325836&fm=26&gp=0.jpg');
+    background-size:30px 30px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#login input[type="password"]:focus {
+    width: 100%;
+}
+canvas {
+    width:400px;/**宽度**/
+    height:400px;/**高度**/
+    position:absolute;/**绝对定位**/
+    left:50%;/**左边50%**/
+    top:50%;/**顶部50%**/
+    margin-top:-200px;/**上移-50%**/
+    margin-left:-200px;/**左移-50%**/
+    bottom: 0;
+    box-shadow: 0 0 0 10px #111;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
